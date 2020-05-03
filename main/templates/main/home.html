@@ -1,0 +1,96 @@
+{% extends 'main/base.html'%}
+{% load static %}
+{% block title %}
+Home
+{% endblock %}
+
+
+
+{% block content %}
+
+<div class="container">
+    <img class="img-container" src="{% static 'main/nl.png' %}" alt="logo">
+</div>  
+ 
+<div class="container">
+      <h1 class="header text-center">What is Needlist?</h1>
+           <p class="lead text-left">NeedList is a simple and elegant task app that is acceisble from any device with an internet connection!</br></p>
+</div>
+
+<div>
+
+    
+
+<footer class="page-footer font-small pt-4 mt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Company</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">About</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Members</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="/login">Login</a>
+          </li>
+          <li>
+            <a href="/register">Register</a>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr>
+
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#"> NeedList</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+
+{% endblock %}
